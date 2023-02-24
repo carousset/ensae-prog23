@@ -57,7 +57,7 @@ class Graph:
         """
         if node1 not in self.graph:
             self.graph[node1] = []
-            self.nb_nodes += 2
+            self.nb_nodes += 1
             self.nodes.append(node1)
         if node2 not in self.graph:
             self.graph[node2] = []
